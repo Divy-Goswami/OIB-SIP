@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/Header."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200px"
+        android:fontFamily="monospace"
+        android:text="LET ME COUNT"
+        android:textAlignment="center"
+        android:textColor="#C50707"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300px"
+        android:padding="50px"
+        android:text="00.00"
+        android:textAlignment="center"
+        android:textColor="#C50707"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:onClick="onClickStart"
+        android:backgroundTint="@android:color/background_light"
+        android:padding="18dp"
+        android:text="@string/start"
+        android:textColor="#F33E05"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:onClick="onClickStop"
+        android:backgroundTint="@android:color/background_light"
+        android:padding="18dp"
+        android:text="@string/stop"
+        android:textColor="#F33E05"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:onClick="onClickReset"
+        android:backgroundTint="@android:color/background_light"
+        android:padding="18dp"
+        android:text="@string/reset"
+        android:textColor="#F33E05"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
